@@ -1,0 +1,45 @@
+ &control
+    calculation       = 'scf'
+    restart_mode      = 'from_scratch'
+    prefix = 'M_h-BNCH_band'
+    outdir = '/scratch/achkrebt/M_h-BNCH_band'
+    pseudo_dir='/home/zibrahim/common/pseudo/'
+    verbosity         = 'high'
+    wf_collect        = .true.
+ /
+ &system 
+    ibrav             =  4
+    celldm(1)         =  4.75
+    nat               =  6
+    celldm(3)         =  7
+    ntyp              =  4
+    nosym             = .false.
+    ecutwfc           =  60
+    nbnd              =  15
+    smearing          = 'fermi-dirac'
+    degauss           = 0.000735
+ /
+ &electrons
+    diago_thr_init=1.0e-3,
+    electron_maxstep = 60,
+    diagonalization='david'
+    mixing_mode = 'plain'
+    mixing_beta = 0.7
+    conv_thr =  1.0d-10
+ /
+ATOMIC_SPECIES
+ H   0.5 H.vbc.UPF
+ C   0.5 C.pz-vbc.UPF
+ B   10.81    B.pz-vbc.UPF
+ N   14.007   N.pz-vbc.UPF
+ATOMIC_POSITIONS (angstrom)
+H   4.41638E-06   0.001600301  -1.096415014
+N   2.74233E-06   0.001977289  -0.051011515
+B   1.256797998   0.727633473   0.475023269
+C   1.256794011   0.727812924   2.100946187
+C  -2.11644E-06   0.002213399   2.573738293
+H  -5.30619E-06   0.002243549   3.695010239
+K_POINTS {automatic}
+ 10 10 1 0 0 0
+!4  4  1 0 0 0
+

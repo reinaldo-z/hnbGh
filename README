@@ -1,0 +1,23 @@
+hydrogen-boron-nitride-Graphene-hydrogen structures provided by Anatoly
+
+At tis moment (Fri Oct 28) two stacking arrangements (AA and AB) which unit cells look like: 
+                    AA                          AB
+                                                
+                    H                           H  
+                    N                           N  
+                      B                           B
+                      C                           C
+                    C                               C  
+                    H                               H  
+
+
+Anatoli *.xyx original fiels (Angstroms) at: ./original_files/
+H_on_N-bilayer_AA_stacked_fully_hydrogenated_hex_primitive_6atoms_new_relaxed_4.75
+H_on_N-bilayer_AB_stacked_fully_hydrogenated_hex_primitive_6atoms_new_relaxed_4.75
+
+Anatoli input files for Quantum expresso (coordinates in Angstroms, celldm(1)
+=  4.75 in Bohrs) at: original_files/
+AA_scf.in
+AB_scf.in
+
+Important info and info to run_tiniba.sh at: ./basefiles/
