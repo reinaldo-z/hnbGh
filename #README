@@ -1,7 +1,7 @@
 hydrogen-boron-nitride-Graphene-hydrogen structures provided by Anatoly
 
 At tis moment (Fri Oct 28) two stacking arrangements (AA and AB) which unit cells look like: 
-                    AA                          AB
+                    AA (x=-0.5y,z plane)        AB (yz plane)
                                                 
                     H                           H  
                     N                           N  
