@@ -45,7 +45,7 @@ rprim  0.86602540378  0.5  0.0
 
 ### Definition of the atom types
 ntypat      4
-znucl       1   5   3   4
+znucl       1   7   5   6
 
 ### Definition of the atoms
 natom     6
